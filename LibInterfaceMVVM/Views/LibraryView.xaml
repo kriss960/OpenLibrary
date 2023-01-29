@@ -52,7 +52,6 @@
                     VerticalAlignment="Center"
                     Content="Search"
                     Command="{Binding SearchBooksCommand}"
-                    CommandParameter="{Binding SearchParameters}"
                     IsEnabled="{Binding CanSearch}"></Button>
         </Grid>
 

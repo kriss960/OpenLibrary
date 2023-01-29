@@ -38,8 +38,6 @@ namespace OpenLibraryAPI
             
             foreach (var book in books)
             {
-                var j = book.title is null;
-
                 result.books.Add(new BookDetails
                 {
                     Title = book.title is not null ? book.title : "",
